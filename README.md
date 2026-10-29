@@ -1,5 +1,7 @@
 # python-reasoning-lm
 
+> **This project has moved to [mdpead/lab](https://github.com/mdpead/lab/tree/main/projects/python_reasoning)**, under `projects/python_reasoning`, with its full commit history. It now builds on `mlcore`, the shared library in that repo. This repository is no longer updated.
+
 [![CI](https://github.com/mdpead/python-reasoning-lm/actions/workflows/ci.yml/badge.svg)](https://github.com/mdpead/python-reasoning-lm/actions/workflows/ci.yml)
 
 A language model built from scratch and trained through three stages on a single 16 GB GPU: pretraining on Python source, supervised fine-tuning to trace small programs step by step, and reinforcement learning with rewards checked by actually running the program.
